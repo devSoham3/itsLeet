@@ -13,8 +13,3 @@ def twoSum(nums, target):
                 output.append(j)
 
     return output[:2]
-
-testArr = [-18,12,-3,0]
-testTgt = 12
-
-print(twoSum(nums=testArr, target=testTgt))
